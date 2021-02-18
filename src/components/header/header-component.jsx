@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils"
 
 import "./header-component.style.scss";
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+// import { ReactComponent as Logo } from "../../assets/crown.svg";
+// import { ReactComponent as Logo } from "../../assets/AE01.png";
+import { ReactComponent as Logo } from "../../assets/AELogo.svg";
 
 const Header = ({currentUser}) => (
   <div className='header'>
